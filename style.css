@@ -25,7 +25,7 @@ button {
 	color: white;
 	background-color: rgb(228, 62, 62);
 	transition-duration: 0.5s;
-	margin-top: 280px;
+	margin-top: 260px;
 }
 
 button:hover {
@@ -34,4 +34,16 @@ button:hover {
 
 .bigU {
 	font-size: 1.8em;
+}
+
+.splash-scale {
+	transition: all 1.5s;
+}
+
+.splash-scale:hover {
+	transform: scale(1.2);
+}
+
+.fix-button-margin-issue {
+	margin: 0px;
 }
